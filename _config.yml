@@ -13,7 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: "IFIP 2.9"
+subtitle: "International Federation for Information Processing"
+logo: "/assets/images/logo.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -21,8 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
-search: true
+minimal_mistakes_skin: air #default
+search: false #true
 
 # Build settings
 markdown: kramdown
@@ -57,35 +59,55 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+#author_profile: false
+#  - title: "Links"
+  #IFIP http://www.ifip.org/
+  #IFIP TC 2 http://www.ifiptc2.org/
+  #RESG of BCS http://www.resg.org.uk/index.php/Welcome
+
 author:
   name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+#  avatar : "/assets/images/sidePanel.png"
+#  bio    : "My awesome biography constrained to a sentence or two goes here."
+#  links:
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://"
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
+#
+#footer:
+#  links:
+#    - label: "Twitter"
+#      icon: "fab fa-fw fa-twitter-square"
+#      url: "https://twitter.com/"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/"
+#    - label: "Instagram"
+#      icon: "fab fa-fw fa-instagram"
+#      url: "https://instagram.com/"
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+    nav: sidebar-sample
+    
+#sidebar:
+#  - title: "IFIP 2.9"
+#    image: "/assets/images/sidePanel.png"
+#    image_alt: "IFIP 2.9" 
 
 defaults:
   # _posts
@@ -95,10 +117,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
+      read_time: false
+      comments: false
       share: true
-      related: true
+      related: false
   # _pages
   - scope:
       path: "_pages"

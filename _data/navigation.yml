@@ -1,9 +1,9 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
+  - title: "Aims & Scopes"
+    url: /aims_scopes/
+  - title: "Membership"
+    url: /membership/
+  - title: "Meetings"
+    url: /posts/
