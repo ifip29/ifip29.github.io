@@ -61,24 +61,24 @@ plugins:
 
 #author_profile: false
 #  - title: "Links"
-  #IFIP http://www.ifip.org/
-  #IFIP TC 2 http://www.ifiptc2.org/
-  #RESG of BCS http://www.resg.org.uk/index.php/Welcome
+  #IFIP 
+  #
+  #
 
 author:
-  name   : "First Lastname"
+  name   : "Links"
 #  avatar : "/assets/images/sidePanel.png"
 #  bio    : "My awesome biography constrained to a sentence or two goes here."
-#  links:
-#    - label: "Website"
+  links:
+    - label: "IFIP"
 #      icon: "fas fa-fw fa-link"
-#      url: "https://"
-#    - label: "Twitter"
+      url: "https://www.ifip.org/"
+    - label: "IFIP TC 2"
 #      icon: "fab fa-fw fa-twitter-square"
-#      url: "https://twitter.com/"
-#    - label: "GitHub"
+      url: "https://www.ifiptc2.org/"
+#    - label: "RESG of BCS"
 #      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/"
+#      url: "https://www.resg.org.uk/index.php/Welcome"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
@@ -100,9 +100,6 @@ sidebar:
     image: http://placehold.it/350x250
     image_alt: "image"
     text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
-    nav: sidebar-sample
     
 #sidebar:
 #  - title: "IFIP 2.9"
