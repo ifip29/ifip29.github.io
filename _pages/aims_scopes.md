@@ -2,8 +2,6 @@
 permalink: /aims_scopes/
 title: "Aims & Scopes"
 ---
-
-### Aims and Scopes
 WG2.9 - Software Requirements Engineering
 Established 1995
 
