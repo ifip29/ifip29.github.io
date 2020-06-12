@@ -1,4 +1,4 @@
-### Welcome to IFIP 2.9 Requirements Engineering
+# Welcome to IFIP 2.9 Requirements Engineering
 
 ## Aims
 The aim of the Working Group is to develop a better understanding of:
@@ -19,7 +19,7 @@ The Scope of the WG includes all aspects of requirements engineering. Some examp
 * requirements engineering for distributed, safety-critical, composite, real-time and embedded systems.
 
 ## Membership
-# Chair
+### Chair
 [Prof. Kevin Ryan](http://www.staff.ul.ie/kevinryan/)  
 Lero - The Irish Software Engineering Center  
 Department of Computer Science and Information Systems  
@@ -28,14 +28,14 @@ Ireland
 Tel. +353 61 202405  
 e-mail: <Kevin.Ryan@lero.ie>  
 
-# Vice-Chair
+### Vice-Chair
 [Prof. Jane Huang](http://www.cdm.depaul.edu/about/Pages/People/FacultyInfo.aspx?fid=342)  
 De Paul University  
 School of Computing  
 Tel. +1 (312) 362-8863  
 e-mail: <jhuang@cs.depaul.edu>  
 
-# Secretary
+### Secretary
 [Prof. Mats Heimdahl](http://www-users.cs.umn.edu/~heimdahl/)  
 University of Minnesota  
 Director, University of Minnesota Software Engineering Center  
@@ -44,7 +44,7 @@ Minneapolis, Minnesota, USA
 Tel. +1 (612)-625-2068  
 e-mail: <heimdahl@cs.umn.edu>  
 
-# Members
+### Members
 * [Annie Antón - USA](http://www.csc.ncsu.edu/faculty/anton)
 * [Joanne Atlee - Canada](https://cs.uwaterloo.ca/~jmatlee/)
 * [Daniel Berry - Canada](http://se.uwaterloo.ca/~dberry)
