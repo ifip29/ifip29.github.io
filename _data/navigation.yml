@@ -1,9 +1,0 @@
-main:
-  - title: "About"
-    url: /about/
-  - title: "Aims & Scopes"
-    url: /aims_scopes/
-  - title: "Membership"
-    url: /membership/
-  - title: "Meetings"
-    url: /posts/
